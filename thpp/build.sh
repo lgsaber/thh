@@ -22,7 +22,7 @@ rm -rf gtest-1.7.0 gtest-1.7.0.zip
 #  echo "Invalid gtest-1.7.0.zip file" >&2
 #  exit 1
 #fi
-unzip gtest-1.7.0.zip
+#unzip gtest-1.7.0.zip
 rm -rf googletest-release-1.7.0 googletest-release-1.7.0.zip
 curl -JLO https://github.com/google/googletest/archive/release-1.7.0.zip
 mv googletest-release-1.7.0.zip gtest-1.7.0.zip
